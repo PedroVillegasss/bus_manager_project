@@ -34,11 +34,11 @@ Todos los usuarios tienen un nombre, apellido y rut, siendo este ultimo inmutabl
 El repositorio que deben clonar para empezar a trabajar viene precargado con archivos dentro de una carpeta data/, en la que se pueden encontrar múltiples archivos de texto en los que se almacena información que deben utilizar para poblar el programa al comenzar la ejecución. Estos solo pueden ser accedidos al comenzar la ejecución del programa con la finalidad mencionada, y, de ser necesario, pueden ser re-visitados únicamente por un profesor para pasar lista (piensen en estos archivos como el libro de clases del profesor).
 
 El formato de estos archivos es:
-busses.txt: <licence_plate>
-classroom.txt: <name>,<teacher_rut>,<licence_plate>,[<student_rut>,...]
-drivers.txt: <first_name>,<last_name>,<rut>,<licence_plate>
-students.txt: <first_name>,<last_name>,<rut>
-teachers.txt: <first_name>,<last_name>,<rut>
+* busses.txt: <licence_plate>
+* classroom.txt: <name>,<teacher_rut>,<licence_plate>,[<student_rut>,...]
+* drivers.txt: <first_name>,<last_name>,<rut>,<licence_plate>
+* students.txt: <first_name>,<last_name>,<rut>
+* teachers.txt: <first_name>,<last_name>,<rut>
 
 El formato y distribución con la que se presentan estos archivos no corresponden a una imposición o sugerencia de clases que se deban crear. Sirven solo para entregar un punto de partida rico en datos para la ejecución del programa.
 
@@ -46,6 +46,6 @@ El formato y distribución con la que se presentan estos archivos no corresponde
 En la carpeta raíz del repositorio debe haber un archivo input.txt, en el que cada linea corresponde a una acción a realizar. Posterior a la ingesta de datos, el programa debe leer este archivo y llevar a cabo cada una de estas acciones. Debe ser lo suficientemente riguroso de no interrumpir la ejecución de esta seguidilla de acciones, manejando con gracia acciones que contradigan las reglas introducidas en este enunciado.
 
 Cada acción puede seguir alguno de los siguientes formatos:
-<rut> GETS IN THE BUS <licence_plate>
-<rut> LETS <rut> IN THE BUS <licence_plate>
-<licence_plate> DRIVES OFF
+* <rut> GETS IN THE BUS <licence_plate>
+* <rut> LETS <rut> IN THE BUS <licence_plate>
+* <licence_plate> DRIVES OFF
