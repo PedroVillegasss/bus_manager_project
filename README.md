@@ -1,5 +1,5 @@
 # Proyecto Bus Manager
-El siguiente código fuente fue desarrollado para la asignatura de Paradigmas de Programación.
+El siguiente código fuente fue desarrollado para la asignatura de Paradigmas de Programación de quinto semestre.
 ## Autores
 * Rodrigo Orellana
 * Benjamín Valenzuela
